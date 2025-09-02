@@ -51,6 +51,7 @@ secrets = ["rocket/secrets"]
 # Re-export Rocket feature flag
 # https://rocket.rs/v0.5/guide/configuration/#mutual-tls
 mtls = ["rocket/mtls"]
+chrono = ["schemars/chrono"]
 
 [package.metadata.docs.rs]
 all-features = true
